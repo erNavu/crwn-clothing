@@ -8,6 +8,7 @@ import {
   Link,
   useNavigate,
 } from "react-router-dom";
+import Shop from "./pages/shop/shop";
 
 // const About = (props) => {
 //   console.log(props);
@@ -52,7 +53,7 @@ function App() {
         {/* <Route path="about" element={<About />} />
         <Route path="topic" element={<Topic />} />
         <Route path="topic/:topicId" element={<TopicId />} /> */}
-        <Route path="hats" element={<Hats />} />
+        <Route path="shop" element={<Shop />} />
       </Routes>
     </div>
   );
