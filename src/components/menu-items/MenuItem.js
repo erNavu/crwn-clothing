@@ -1,11 +1,12 @@
 import React from "react";
 import "./MenuItem.scss";
-import { useLocation, useNavigate, useParams } from "react-router-dom";
+// import { useLocation, useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => {
-  const location = useLocation();
+const MenuItem = ({ title, imageUrl, size, linkUrl, match }) => {
+  // const location = useLocation();
   const navigate = useNavigate();
-  const params = useParams();
+  // const params = useParams();
 
   // console.log("location", location);
   // console.log("navigate", navigate);
