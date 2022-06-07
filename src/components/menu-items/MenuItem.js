@@ -7,9 +7,9 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => {
   const navigate = useNavigate();
   const params = useParams();
 
-  console.log("location", location);
-  console.log("navigate", navigate);
-  console.log("params", params);
+  // console.log("location", location);
+  // console.log("navigate", navigate);
+  // console.log("params", params);
 
   return (
     <div
